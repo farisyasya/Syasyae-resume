@@ -1,0 +1,63 @@
+
+  section {
+    padding: 5px;
+  }
+
+  .background-image .text{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    font-size: large;
+    transform: translate(-50% -50%);
+
+  }
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  font-family:'Lucida Sans Regular', sans-serif;
+}
+
+.text{
+  color: white;
+  font-size: 250%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a:link, a:visited {
+
+  color: white;
+  border-style: solid;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color: white;
+}
+
+*{
+  margin: 0;
+padding: 0;
+}
+
+.background-image{
+  background-image: url(picture/picture1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
