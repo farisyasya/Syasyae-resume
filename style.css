@@ -30,8 +30,17 @@ body{
   text-align: center;
 }
 
-a:link, a:visited {
+.button {
+  margin-top: auto;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+}
 
+a:link, a:visited {
   color: white;
   border-style: solid;
   padding: 5px 20px;
