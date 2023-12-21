@@ -8,7 +8,7 @@
     color: white;
     left: 50%;
     top: 50%;
-    font-size: large;
+    font-size: 200%;
     transform: translate(-50% -50%);
 
   }
@@ -22,7 +22,7 @@ body{
 
 .text{
   color: white;
-  font-size: 250%;
+  font-size: 200%;
   position: absolute;
   top: 50%;
   left: 50%;
